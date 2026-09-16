@@ -1,0 +1,14 @@
+while [ condition ]
+do
+    # statements
+done
+
+
+for (( initialization; condition; increment ))
+do
+    # statements
+done
+
+if
+
+

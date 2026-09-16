@@ -1,0 +1,6 @@
+This is the File_1
+To make directory -> mkdir dir_name
+To create a file inside it -> cd dir_name -> touch file_name
+To write inside file -> cat > file_name
+To see the content inside file -> cat < file_name
+#REMEMBER : cat > file_name always rewrites the file

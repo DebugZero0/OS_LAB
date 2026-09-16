@@ -1,0 +1,28 @@
+#Declare a variable 
+	name="ANKAN"
+	age=22
+
+#Read or Access the variable 
+	$name
+	$age
+
+#Print 
+	echo "Hello world!"
+	printf "Hello world!"
+
+#User input
+	echo "Enter your name"
+	read name		// name is a varibale
+
+## Shell commands...
+	
+#Run the code
+	chmod +x file_name
+	./File_name
+
+#Make a file
+	touch file_name
+#open the file to edit 
+	nano file_name
+
+

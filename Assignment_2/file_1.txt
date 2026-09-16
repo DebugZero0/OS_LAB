@@ -1,0 +1,10 @@
+01|Ankan Nandi|Howrah
+02|Riya Das|Kolkata
+03|Sourav Ghosh|Durgapur
+04|Priyanka Roy|Siliguri
+05|Rahul Mukherjee|Asansol
+06|Ananya Sen|Bardhaman
+07|Arijit Paul|Kharagpur
+08|Moumita Chatterjee|Malda
+09|Sayan Banerjee|Hooghly
+10|Puja Mondal|Midnapore
