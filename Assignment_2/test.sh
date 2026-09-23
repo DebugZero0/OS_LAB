@@ -1,3 +1,11 @@
+#Array
+echo "Enter elements (seperated by space)"
+read -a arr
+
+printf "%s\n" "${arr[@]}" | sort -n | xargs
+
+
+
 echo "Hello world!"
 
 name="Ankan"
@@ -39,3 +47,12 @@ sum(){
 }
 
 sum 10 20
+
+
+
+
+
+
+
+
+

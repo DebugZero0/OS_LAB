@@ -1,14 +1,20 @@
-
-
 echo "Enter a string:"
 read str
 
-reverse=$(echo "$str" | rev)
+rev=""
+len=${#str}
+i=$((len-1))
+echo $len
 
-if [ "$str" = "$reverse" ]
+while [ $i -ge 0 ]
+do
+    rev=$rev${str:$i:1}
+    i=$((i-1))
+done
+
+if [ "$str" = "$rev" ]
 then
     echo "Palindrome"
 else
     echo "Not Palindrome"
 fi
-

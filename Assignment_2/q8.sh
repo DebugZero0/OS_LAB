@@ -1,26 +1,20 @@
 #Bubble sort
 
-echo "Enter no of elements:"
-read n
-
 echo "Enter elements:"
-for((i=0;i<n;i++))
-do
-	read a[i]
-done
+read -a arr
 
-for((i=0;i<n-1;i++))
+for((i=0;i<${#arr[@]}-1;i++))
 do
-	for((j=0;j<n-1-i;j++))
+	for((j=0;j<${#arr[@]}-1-i;j++))
 	do
-		if [ ${a[j]} -gt ${a[$((j+1))]} ]
+		if [ ${arr[j]} -gt ${arr[$((j+1))]} ]
 		then
-			temp=${a[j]}
-			a[j]=${a[$((j+1))]}
-			a[$((j+1))]=$temp
+			temp=${arr[j]}
+			arr[j]=${arr[$((j+1))]}
+			arr[$((j+1))]=$temp
 		fi
 	done
 done
 
-echo ${a[@]}
+printf "%s " "${arr[@]}"
 
